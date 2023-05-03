@@ -31,10 +31,11 @@ class Experience extends Component {
         return (
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
+           // this changes the colors for the upper half of the timeline 
             date={work.years}
             iconStyle={{
-              background: "#AE944F",
-              color: "#fff",
+              background: "#A282A2",
+              color: "#f8f8ff",
               textAlign: "center",
             }}
             icon={<i className="fab fa-angular experience-icon"></i>}
@@ -66,7 +67,7 @@ class Experience extends Component {
       <section id="resume" className="pb-5">
         <div className="col-md-12 mx-auto">
           <div className="col-md-12">
-            <h1 className="section-title" style={{ color: "black" }}>
+            <h1 className="section-title" style={{ color: "#f8f8ff" }}>
               <span className="text-black" style={{ textAlign: "center" }}>
                 {sectionName}
               </span>
@@ -77,9 +78,10 @@ class Experience extends Component {
           <VerticalTimeline>
             {work}
             <VerticalTimelineElement
+            // this here changes the colors/format of the experience stuff
               iconStyle={{
-                background: "#AE944F",
-                color: "#fff",
+                background: "#A282A2",
+                color: "#f8f8ff",
                 textAlign: "center",
               }}
               icon={

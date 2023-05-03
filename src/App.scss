@@ -1,5 +1,3 @@
-@import '/src/scss/themes/theme-dark.scss';
-@import '/src/scss/themes/theme-light.scss';
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
 
 html {
@@ -17,6 +15,7 @@ html {
 
 .title-container {
 	height: 50px;
+  color: #f8f8ff;
 }
 
 .title-styles {
@@ -38,7 +37,9 @@ header {
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: #e9d5a1;
+	background-color: #a282a2;
+  // background-image: ;
+  // ur bg image goes here in the code above, just comment it- Kaydee 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -77,7 +78,7 @@ header .nav {
 }
 
 .skills-tile {
-	background-color: transparentize(#F8F5F4, 0.95);
+	background-color: transparentize(#f6f4f8, 0.95);
 	padding: 10px 10px 5px 10px;
 	width: 100px;
 	margin: 5px 0 5px 0;
@@ -86,7 +87,7 @@ header .nav {
 
 .language {
 	font-size: 25px;
-	background-color: #e9d5a1;
+	background-color: #f8f8ff;
 	padding-bottom: 10px;
 	padding-top: 80px;
 }
@@ -95,7 +96,7 @@ header h1 {
 	font-size: 400%;
 	text-align: center;
 	font-weight: 600 !important;
-	color: #353239;
+	color: #f8f8ff;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	margin: 0 auto 18px auto;
 	width: 100%;
@@ -106,7 +107,7 @@ header h1 {
 }
 
 .slider-tab {
-	background-color: #D7CAAA;
+	background-color: #f8f8ff;
 	height: 25px;
 }
 
@@ -120,7 +121,7 @@ header h1 {
 }
 
 #about {
-	background: #fff;
+	background: #826982;
 	overflow: hidden;
 }
 
@@ -129,7 +130,7 @@ header h1 {
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color: black;
+	color: #f8f8ff;
 	text-align: center;
 }
 
@@ -139,7 +140,7 @@ header h1 {
 }
 
 .foto div {
-	background: #ffffff;
+	background: #1c1a1c;
 	display: inline-block;
 	margin: 0 auto 5% auto;
 	padding: 10px 10px 5px;
@@ -178,7 +179,7 @@ header h1 {
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color: black;
+	color: #f8f8ff;
 	text-align: center;
 }
 
@@ -188,13 +189,13 @@ header h1 {
 }
 
 .polaroid span {
-	background: #ffffff;
+	background: #f8f8ff;
 	display: inline-block;
 	margin: 55px 75px 30px;
 	padding: 15px 15px 30px;
 	text-align: center;
 	text-decoration: none;
-	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+	-webkit-box-shadow: 0 4px 6px rgba(255, 255, 255, 0.3);
 	-moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
 	box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
 	-webkit-transition: all .20s linear;
@@ -205,7 +206,7 @@ header h1 {
 }
 
 .link-href {
-	color: black;
+	color: #f8f8ff;
 }
 
 .wave {
@@ -218,7 +219,7 @@ header h1 {
 
 #preview {
 	width: 500px;
-	background-color: #ebeaf5;
+	background-color: #f8f8ff;
 	padding: 15px;
 	position: relative;
 	margin-bottom: 15%;
@@ -231,7 +232,7 @@ header h1 {
 }
 
 #resume {
-	background: #efe1bd;
+	background: #826982;
 }
 
 .experience-icon {
@@ -245,7 +246,7 @@ header h1 {
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #AE944F !important;
+	background-color: #f8f8ff !important;
 	color: white;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -256,8 +257,8 @@ header h1 {
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #f9f5e9 !important;
-	color: black;
+	background-color: #1c1a1c !important;
+	color: rgb(255, 255, 255);
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -265,6 +266,17 @@ header h1 {
 .vertical-timeline-element-date {
 	padding: 0 !important;
 	margin: 0 !important;
+}
+.vertical-timeline-element-content.bounce-in{
+background-color: #1c1a1c;
+}
+
+body {
+  color: #f8f8ff !important;
+}
+
+.mb-2 {
+  background-color: #a282a2 !important;
 }
 
 @media only screen and (max-width: 1170px) {
@@ -315,7 +327,7 @@ header h1 {
 	top: 0;
 	margin: 0;
 	padding-right: 24px;
-	background: #313131;
+	background: #f8f8ff;
 	display: inline-block;
 	height: 42px;
 	line-height: 42px;
@@ -329,7 +341,7 @@ header h1 {
 }
 
 .close-icon {
-	color: black;
+	color: #f8f8ff;
 	font-weight: lighter !important;
 }
 
@@ -349,11 +361,11 @@ header h1 {
 }
 
 .loader-bar-color {
-	color: black !important;
+	color: #f8f8ff !important;
 }
 
 #portfolio {
-	background: #efe1bd;
+	background: #826982;
 	padding-bottom: 5%;
 }
 
@@ -402,7 +414,7 @@ header h1 {
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color: #fff;
+	color: #f8f8ff;
 	text-align: center;
 }
 
