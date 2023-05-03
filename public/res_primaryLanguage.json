@@ -81,11 +81,11 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
+        "company": "Skilled in",
         "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "years": "",
         "mainTech": [
-          "Angular 8/9/10"
+          "Programming"
         ],
         "technologies": [
           "HTML",
@@ -95,18 +95,17 @@
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Skilled in",
+        "title": "Graphic Artist",
+        "years": "",
         "mainTech": [
-          "Angular 7/8"
+          "Art"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "Adobe Suite",
+          "Procreate",
+          "Paint Tool Sai",
+          "Paint.NET"
         ]
       }
     ]

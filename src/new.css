@@ -1,0 +1,5 @@
+.my-custom-style .rounded-pill {
+    border-radius: var(--bs-border-radius-pill);
+    background-color: #826982;
+  }
+  
